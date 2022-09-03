@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: http://www.weekendlabs.net/sitemap.xml
+Sitemap: http://www.unicornexits.com/sitemap.xml
