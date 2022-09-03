@@ -1,0 +1,54 @@
+@media (min-width: 992px) {
+    body {
+        overflow: hidden;
+        max-height: 100vh;
+    }
+  .header {
+    &.home {
+        padding-top: 5rem;
+      }
+  }
+  .row {
+    padding: 1rem 4rem;
+  }
+  .position-fixed {
+    position: fixed !important;
+    overflow: hidden;
+    padding-right: 5rem;
+  }
+  .video-holder {
+    display: block;
+  }
+  .brand {
+    display: flex;
+    height: auto ;
+    position: fixed;
+    left: 0;
+    img {
+        margin-left: 2rem;
+    }
+    a {
+        float: left;
+        margin: auto 0 auto 2rem;
+        flex: none;
+      }
+  }
+  .contact {
+    display: flex;
+    margin-left: auto;
+    padding: 0 4rem;
+    max-height: 3rem;
+    .contact__button {
+            font-size: 1.125rem;
+            padding: 0.75rem 1.5rem;
+    }
+  }
+  .hero {
+    display: flex;
+    padding-right: 10vw;
+    height: 70vh;
+    h1 {
+      font-size: 1.75rem;
+    }
+  }
+}
