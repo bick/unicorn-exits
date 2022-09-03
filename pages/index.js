@@ -51,7 +51,7 @@ export default function Home() {
         </ul>
       </header>
       <Layout>
-        <section className="hero home col-sm-8">
+        <section className="hero col-sm-8">
           <h1>
             <span class="unicorn-exits">UNICORN EXITS</span> is a podcast about
             starting, scaling, and successfully exiting a startup.
