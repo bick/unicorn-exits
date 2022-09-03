@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Script from 'next/script';
+import Script from "next/script";
 import Layout from "../components/layout";
 import { SiInstagram } from "react-icons/si";
 import { SiTwitter } from "react-icons/si";
@@ -17,16 +17,19 @@ export default function Home() {
           content="Unicorn Exits is a podcast about starting, scaling, and successfully exiting a startup."
         />
         <link rel="icon" href="/favicon.ico" />
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-8NSY41NMLH"></Script>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-8NSY41NMLH"
+        ></Script>
         <Script id="google-analytics" strategy="afterInteractive">
-        {`
+          {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-8NSY41NMLH');
           `}
-      </Script>
+        </Script>
       </Head>
       <div className="video-holder">
         <video src="/blobs.m4v" autoPlay muted loop></video>
