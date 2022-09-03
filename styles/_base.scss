@@ -7,7 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
   width: 100vw;
-  overflow-x: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 a {
   color: inherit;
@@ -49,7 +50,7 @@ a {
           max-width: 10rem;
           border: 1px solid #222326;
           border-radius: 1rem;
-          margin-bottom: .25rem;
+          margin-bottom: 0.25rem;
           &:hover {
             box-shadow: rgb(255 255 255 / 15%) 0px 0px 32px;
             transition: 0.2s;
