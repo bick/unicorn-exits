@@ -22,9 +22,9 @@ a {
   box-sizing: border-box;
 }
 .header {
-  display: block;
+  display: flex;
   width: 100%;
-  padding: 1rem 3rem;
+  padding: 1rem;
   &.home {
     padding-top: 1rem;
   }
@@ -35,19 +35,18 @@ a {
   }
 
   .header__list {
-    display: flex;
+    display: block;
     list-style: none;
-    margin: 1rem 0 0 auto;
+    margin: 0 0 0 auto;
     padding: 0;
     align-items: center;
 
     .header__item {
-      display: flex;
       a {
         margin-right: 1rem;
 
         img {
-          max-width: 25vw;
+          max-width: 8rem;
           border: 1px solid #222326;
           border-radius: 1rem;
           &:hover {
@@ -63,7 +62,7 @@ a {
 .hero {
   display: block;
   align-items: flex-end;
-  padding: 2rem 3rem;
+  padding: 2rem 1rem;
 
   h1 {
     font-weight: 500;
