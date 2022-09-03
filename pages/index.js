@@ -28,21 +28,21 @@ export default function Home() {
         </div>
         <ul className="header__list">
           <li class="header__item">
-            <Link href="spotify.com">
+            <Link href="/spotify">
               <a target="_blank" rel="nofollow">
                 <img src="/spotify.svg" class="podcast-network" />
               </a>
             </Link>
           </li>
           <li class="header__item">
-            <Link href="apple.com">
+            <Link href="/apple">
               <a target="_blank" rel="nofollow">
                 <img src="/apple.svg" class="podcast-network" />
               </a>
             </Link>
           </li>
           <li class="header__item">
-            <Link href="google.com">
+            <Link href="/google">
               <a target="_blank" rel="nofollow">
                 <img src="/google.svg" class="podcast-network" />
               </a>
