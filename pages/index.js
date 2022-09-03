@@ -19,11 +19,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-8NSY41NMLH"></Script>
         <Script id="google-analytics" strategy="afterInteractive">
+        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-8NSY41NMLH');
+          `}
       </Script>
       </Head>
       <div className="video-holder">
