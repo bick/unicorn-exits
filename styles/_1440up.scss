@@ -20,7 +20,8 @@
             .header__item {
                 img {
                     height: 50px;
-                    width: 12rem;
+                    max-width: 12rem !important;
+                    background: #000;
                 }
             }
         }
