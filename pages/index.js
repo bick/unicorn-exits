@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import { SiInstagram } from "react-icons/si";
 import { SiTwitter } from "react-icons/si";
 import { SiTiktok } from "react-icons/si";
-import { SiYouTube } from "react-icons/si";
+import { SiYoutube } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -63,7 +63,7 @@ export default function Home() {
             <li className="footer__item">
               <Link href="https://youtube.com/unicornexits">
                 <a className="footer__link" target="_blank" rel="nofollow">
-                  <SiYouTube></SiYouTube>
+                  <SiYoutube></SiYoutube>
                 </a>
               </Link>
             </li>
