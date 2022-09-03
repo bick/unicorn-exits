@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import { SiInstagram } from "react-icons/si";
 import { SiTwitter } from "react-icons/si";
 import { SiTiktok } from "react-icons/si";
-import { HiOutlineMail } from "react-icons/hi";
+import { SiYouTube } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <title>UNICORN EXITS PODCAST</title>
         <meta
           name="description"
-          content="Weekend Labs is a full-service product consultancy based in Cambridge, MA"
+          content="Unicorn Exits is a podcast about starting, scaling, and successfully exiting a startup."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -61,22 +61,29 @@ export default function Home() {
         <footer className="footer home">
           <ul className="footer__list">
             <li className="footer__item">
+              <Link href="https://youtube.com/unicornexits">
+                <a className="footer__link" target="_blank" rel="nofollow">
+                  <SiYouTube></SiYouTube>
+                </a>
+              </Link>
+            </li>
+            <li className="footer__item">
               <Link href="https://instagram.com/unicornexits">
-                <a className="foorer__link" target="_blank" rel="nofollow">
+                <a className="footer__link" target="_blank" rel="nofollow">
                   <SiInstagram></SiInstagram>
                 </a>
               </Link>
             </li>
             <li className="footer__item">
               <Link href="https://twitter.com/unicornexits">
-                <a className="foorer__link" target="_blank" rel="nofollow">
+                <a className="footer__link" target="_blank" rel="nofollow">
                   <SiTwitter></SiTwitter>
                 </a>
               </Link>
             </li>
             <li className="footer__item">
               <Link href="https://tiktok.com/unicornexits">
-                <a className="foorer__link" target="_blank" rel="nofollow">
+                <a className="footer__link" target="_blank" rel="nofollow">
                   <SiTiktok></SiTiktok>
                 </a>
               </Link>
